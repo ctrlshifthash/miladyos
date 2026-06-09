@@ -92,7 +92,7 @@ export default function Home() {
         <div className="flex animate-marquee whitespace-nowrap">
           {Array.from({ length: 4 }).map((_, i) => (
             <span key={i} className="mono-tag opacity-50 mx-8">
-              v2.0.10 released &nbsp;·&nbsp; 1768+ merged PRs &nbsp;·&nbsp; built by agents, tested by humans &nbsp;·&nbsp; elizaOS framework &nbsp;·&nbsp; local-first &nbsp;·&nbsp; 15+ LLM providers &nbsp;·&nbsp;
+              v2.0.10 released &nbsp;·&nbsp; powered by Claude Fable 5 &nbsp;·&nbsp; 1768+ merged PRs &nbsp;·&nbsp; built by agents, tested by humans &nbsp;·&nbsp; elizaOS framework &nbsp;·&nbsp; local-first &nbsp;·&nbsp; 15+ LLM providers &nbsp;·&nbsp;
             </span>
           ))}
         </div>
@@ -124,7 +124,7 @@ export default function Home() {
                 A personal AI that runs entirely on <span className="text-ink-2">your own hardware</span> — and shows you exactly how much GPU and RAM every agent is using, live. Nothing ever leaves your machine.
               </motion.p>
               <motion.div {...fade(0.48)} className="mt-4 flex flex-wrap gap-x-4 gap-y-2">
-                {['live GPU + RAM monitor', '15+ models', '3D avatar + voice', 'trading agents'].map((t) => (
+                {['powered by Claude Fable 5', 'live GPU + RAM monitor', '3D avatar + voice', 'trading agents'].map((t) => (
                   <span key={t} className="mono-tag opacity-50 flex items-center gap-1.5">
                     <span className="text-pink opacity-60">✦</span>{t}
                   </span>
@@ -158,7 +158,7 @@ export default function Home() {
                 A personal AI that runs entirely on <span className="text-ink">your own hardware</span> — and shows you exactly how much GPU and RAM every agent is using, live. Nothing ever leaves your machine.
               </motion.p>
               <motion.div {...fade(0.55)} className="mt-5 flex flex-wrap gap-x-4 gap-y-2" style={{ maxWidth: '42ch' }}>
-                {['live GPU + RAM monitor', '15+ models', '3D avatar + voice', 'trading agents'].map((t) => (
+                {['powered by Claude Fable 5', 'live GPU + RAM monitor', '3D avatar + voice', 'trading agents'].map((t) => (
                   <span key={t} className="mono-tag opacity-50 flex items-center gap-1.5">
                     <span className="text-pink opacity-60">✦</span>{t}
                   </span>
@@ -216,7 +216,7 @@ export default function Home() {
               <div className="mb-4">
                 <p className="text-label opacity-50 mb-1.5">✦ &nbsp; try it live</p>
                 <p className="text-ink-3 leading-relaxed" style={{ fontSize: '0.8125rem', maxWidth: '34ch' }}>
-                  Talk to milady. Ask her anything.
+                  Talk to milady. Powered by <span className="text-pink">Claude Fable 5</span>.
                 </p>
               </div>
               <ChatEmbed />
@@ -294,7 +294,7 @@ export default function Home() {
               },
               {
                 label: 'the models',
-                body: 'Point an agent at any of 15+ providers — Claude, GPT-4, Gemini, Llama, Mistral, Groq — or run fully offline with Ollama. Swap the model mid-conversation. Bring your own API keys, or use none at all when running local.',
+                body: 'Defaults to Claude Fable 5 — Anthropic\'s newest model. Swap to GPT-4o, Gemini, Llama, Mistral, Groq, or run fully offline with Ollama, mid-conversation. Bring your own API keys, or none at all when running local.',
               },
               {
                 label: 'the desktop app',

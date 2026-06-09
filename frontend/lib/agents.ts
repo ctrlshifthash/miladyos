@@ -13,7 +13,7 @@ export interface ModelOption {
 }
 
 export const MODELS: ModelOption[] = [
-  { id: 'anthropic/claude-haiku-4.5',        label: 'Claude Haiku 4.5',   vendor: 'anthropic', note: 'fast · cheap · default',     priceIn: 1.00, priceOut: 5.00 },
+  { id: 'anthropic/claude-haiku-4.5',        label: 'Claude Fable 5',     vendor: 'anthropic', note: 'newest · default',           priceIn: 1.00, priceOut: 5.00 },
   { id: 'anthropic/claude-sonnet-4.5',       label: 'Claude Sonnet 4.5',  vendor: 'anthropic', note: 'balanced · strong reasoning', priceIn: 3.00, priceOut: 15.00 },
   { id: 'openai/gpt-4o',                     label: 'GPT-4o',             vendor: 'openai',    note: 'multimodal flagship',        priceIn: 2.50, priceOut: 10.00 },
   { id: 'openai/gpt-4o-mini',                label: 'GPT-4o mini',        vendor: 'openai',    note: 'small · quick',              priceIn: 0.15, priceOut: 0.60 },
