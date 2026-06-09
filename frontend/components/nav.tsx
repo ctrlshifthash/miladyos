@@ -108,7 +108,7 @@ export default function Nav() {
           <div className="flex items-center gap-4 ml-auto relative z-10">
             <span className="hidden md:block"><WalletConnect /></span>
             <div className="hidden md:flex items-center gap-2 -mr-2 md:-mr-8 lg:-mr-16 xl:-mr-24">
-              <a href="https://pump.fun" target="_blank" rel="noopener noreferrer" title="pump.fun" aria-label="pump.fun" className={socialBox}><PumpIcon /></a>
+              <a href="https://pump.fun/coin/CqxNJHPTfVR7NoooaZkBJEMbH9fjoebrvo4sqAePpump" target="_blank" rel="noopener noreferrer" title="pump.fun" aria-label="pump.fun" className={socialBox}><PumpIcon /></a>
               <a href="https://x.com/tryMiladyOS" target="_blank" rel="noopener noreferrer" title="X" aria-label="X (Twitter)" className={socialBox}><XIcon /></a>
               <a href="https://github.com/trymiladyOS/miladyOS" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub" className={socialBox}><GithubIcon /></a>
             </div>
@@ -140,7 +140,7 @@ export default function Nav() {
               </Link>
             ))}
             <div className="flex items-center gap-2 pt-1">
-              <a href="https://pump.fun" target="_blank" rel="noopener noreferrer" title="pump.fun" aria-label="pump.fun" className={socialBox}><PumpIcon /></a>
+              <a href="https://pump.fun/coin/CqxNJHPTfVR7NoooaZkBJEMbH9fjoebrvo4sqAePpump" target="_blank" rel="noopener noreferrer" title="pump.fun" aria-label="pump.fun" className={socialBox}><PumpIcon /></a>
               <a href="https://x.com/tryMiladyOS" target="_blank" rel="noopener noreferrer" title="X" aria-label="X (Twitter)" className={socialBox}><XIcon /></a>
               <a href="https://github.com/trymiladyOS/miladyOS" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub" className={socialBox}><GithubIcon /></a>
             </div>
