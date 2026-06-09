@@ -116,7 +116,7 @@ export default function Home() {
           {/* mobile: stacked */}
           <div className="lg:hidden flex flex-col gap-10 pt-28 pb-16 relative z-10">
             <div>
-              <motion.p {...fade(0.1)} className="text-label mb-6 opacity-60">✦ &nbsp; milady OS &nbsp;·&nbsp; v2.0.10</motion.p>
+              <motion.p {...fade(0.1)} className="text-label mb-6 opacity-60">✦ &nbsp; milady OS &nbsp;·&nbsp; Claude Fable 5 + Mythos (no guardrails)</motion.p>
               <motion.h1 {...fade(0.25)} className="display text-ink" style={{ fontSize: 'clamp(3rem, 14vw, 5rem)' }}>
                 intelligence,<br /><span className="text-pink" style={{ opacity: 0.9 }}>contained.</span>
               </motion.h1>
@@ -147,7 +147,7 @@ export default function Home() {
             {/* col 1: text */}
             <div className="pr-8 py-0">
               <motion.p {...fade(0.1)} className="text-label mb-8 opacity-60">
-                ✦ &nbsp; milady OS &nbsp;·&nbsp; v2.0.10 &nbsp;·&nbsp; elizaOS
+                ✦ &nbsp; milady OS &nbsp;·&nbsp; Claude Fable 5 &nbsp;·&nbsp; Mythos (no guardrails)
               </motion.p>
               <motion.h1 {...fade(0.25)} className="display text-ink" style={{ fontSize: 'clamp(2.75rem, 5vw, 6rem)' }}>
                 intelligence,
