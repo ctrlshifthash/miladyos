@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-jetbrains: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #09080c;
+  color: #ede8ec;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* grain */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+::selection {
+  background-color: rgba(242, 167, 195, 0.18);
+  color: #f2a7c3;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #09080c; }
+::-webkit-scrollbar-thumb { background: #2a2535; border-radius: 2px; }
+
+@layer components {
+
+  /* ── Layout ──────────────────────────────── */
+  .section-pad {
+    @apply px-6 md:px-12 lg:px-20 xl:px-28;
+  }
+
+  /* ── Typography ──────────────────────────── */
+  .text-label {
+    @apply text-xs font-mono tracking-widest uppercase text-ink-3;
+    letter-spacing: 0.14em;
+  }
+
+  /* Main display — massive thin italic serif */
+  .display {
+    font-family: var(--font-cormorant);
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: -0.03em;
+    line-height: 0.9;
+  }
+
+  /* Section headings — upright, slightly heavier */
+  .heading {
+    font-family: var(--font-cormorant);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.025em;
+    line-height: 1;
+  }
+
+  /* ── Borders ─────────────────────────────── */
+  .hairline        { border: 1px solid rgba(255,255,255,0.05); }
+  .hairline-top    { border-top: 1px solid rgba(255,255,255,0.05); }
+  .hairline-bottom { border-bottom: 1px solid rgba(255,255,255,0.05); }
+
+  .pink-border {
+    border: 1px solid rgba(242, 167, 195, 0.14);
+  }
+
+  /* ── Buttons ─────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center gap-2 text-sm tracking-wide transition-all duration-200 active:scale-95 select-none;
+    letter-spacing: 0.04em;
+  }
+
+  .btn-primary {
+    @apply btn px-5 py-2.5;
+    border: 1px solid rgba(242, 167, 195, 0.4);
+    color: #f2a7c3;
+  }
+  .btn-primary:hover {
+    background: rgba(242, 167, 195, 0.08);
+    border-color: rgba(242, 167, 195, 0.65);
+    color: #f5bbd0;
+  }
+
+  .btn-ghost {
+    @apply btn px-5 py-2.5;
+    border: 1px solid rgba(255,255,255,0.07);
+    color: #a09aa8;
+  }
+  .btn-ghost:hover {
+    border-color: rgba(255,255,255,0.13);
+    color: #ede8ec;
+  }
+
+  /* Bracket-style link button — very milady */
+  .btn-bracket {
+    @apply btn gap-0 text-ink-3 hover:text-ink-2;
+  }
+  .btn-bracket .b {
+    @apply text-pink opacity-50 transition-opacity duration-200;
+  }
+  .btn-bracket:hover .b {
+    @apply opacity-80;
+  }
+
+  /* ── Cards ───────────────────────────────── */
+  .card {
+    @apply bg-surface transition-colors duration-300;
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  .card:hover {
+    background: #131020;
+    border-color: rgba(255,255,255,0.08);
+  }
+
+  /* ── Ornamental divider ──────────────────── */
+  .ornament-divider {
+    @apply flex items-center gap-4 py-2;
+  }
+  .ornament-divider::before,
+  .ornament-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.05);
+  }
+
+  /* ── Mono tag ────────────────────────────── */
+  .mono-tag {
+    @apply font-mono text-xs text-ink-3;
+    letter-spacing: 0.06em;
+  }
+
+  /* ── Stat block ──────────────────────────── */
+  .stat-num {
+    font-family: var(--font-cormorant);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.5rem;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: #ede8ec;
+  }
+}
