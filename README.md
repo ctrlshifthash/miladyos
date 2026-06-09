@@ -9,6 +9,7 @@
 [![Website](https://img.shields.io/badge/site-miladyos.app-f2a7c3?style=for-the-badge&labelColor=0d0b13)](https://miladyos.app)
 [![X](https://img.shields.io/badge/follow-@tryMiladyOS-f2a7c3?style=for-the-badge&logo=x&logoColor=white&labelColor=0d0b13)](https://x.com/tryMiladyOS)
 [![Claude Fable 5](https://img.shields.io/badge/powered%20by-Claude%20Fable%205-f2a7c3?style=for-the-badge&labelColor=0d0b13)](https://miladyos.app)
+[![Mythos](https://img.shields.io/badge/+-Mythos%20(no%20guardrails)-9fb0d0?style=for-the-badge&labelColor=0d0b13)](https://miladyos.app)
 [![elizaOS](https://img.shields.io/badge/built%20on-elizaOS-c7b8d8?style=for-the-badge&labelColor=0d0b13)](https://github.com/elizaos)
 
 </div>
@@ -21,16 +22,18 @@
 
 > Your AI. Your machine. Your keys. Nothing — and no compute — ever leaves your device.
 
-## ✦ Powered by Claude Fable 5
+## ✦ Powered by Claude Fable 5 — and Mythos
 
-Milady OS is among the **first projects shipped on [Claude Fable 5](https://miladyos.app)** — Anthropic's newest model. Fable 5 is the default brain for every agent, and you can swap to any of 15+ providers mid-conversation: GPT-4o, Gemini, Llama, Mistral, Groq, or fully offline via Ollama.
+Milady OS is among the **first projects shipped on [Claude Fable 5](https://miladyos.app)** — Anthropic's newest model and the default, guardrailed brain for every agent.
+
+Need it raw? Switch any agent to **Mythos — the same intelligence, without the guardrails**. Two modes, one runtime: **Fable 5** for safe-by-default, **Mythos** for unfiltered. Plus 15+ other providers (GPT-4o, Gemini, Llama, Mistral, Groq) or fully offline via Ollama — swappable mid-conversation.
 
 ## ✦ Features
 
 | | |
 |---|---|
 | 🖥️ **Local-first** | The model runs on *your* GPU and RAM. No data leaves the device, no rate limits, no metering. |
-| 🧠 **15+ models** | Claude Fable 5 by default — swap to GPT-4o, Gemini, Llama, Mistral, Groq, or run offline with Ollama. |
+| 🧠 **Fable 5 + Mythos** | Claude Fable 5 (guardrailed) by default, or **Mythos (no guardrails)** — plus GPT-4o, Gemini, Llama, Mistral, Groq, or offline via Ollama. |
 | 🎭 **3D avatar + voice** | A VRM avatar rendered in WebGL that lip-syncs to speech and reacts in real time. Swap in any model. |
 | 💱 **Trading agents** | Connect a wallet and your agent trades for you across **BNB Smart Chain, PancakeSwap, and Solana** — within hard limits you set. |
 | 📊 **Live compute readout** | See GPU load, RAM footprint, throughput (tok/s), and token spend for every conversation, as it happens. |
