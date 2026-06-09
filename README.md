@@ -6,6 +6,8 @@
 
 ### a personal AI you *actually own* — running on your hardware, not the cloud
 
+### 🧠 two minds: **Claude Fable 5** · or **Mythos**, with *no guardrails*
+
 [![Website](https://img.shields.io/badge/site-miladyos.app-f2a7c3?style=for-the-badge&labelColor=0d0b13)](https://miladyos.app)
 [![X](https://img.shields.io/badge/follow-@tryMiladyOS-f2a7c3?style=for-the-badge&logo=x&logoColor=white&labelColor=0d0b13)](https://x.com/tryMiladyOS)
 [![Claude Fable 5](https://img.shields.io/badge/powered%20by-Claude%20Fable%205-f2a7c3?style=for-the-badge&labelColor=0d0b13)](https://miladyos.app)
@@ -16,17 +18,25 @@
 
 ---
 
+## ✦ Two minds, one runtime — Claude Fable 5 & Mythos
+
+> ### **Milady OS is among the first projects in the world built on Claude Fable 5.**
+
+Every agent runs on **Claude Fable 5** — Anthropic's newest model — by default. But intelligence shouldn't come with a leash you can't take off. So any agent can switch, instantly, to **Mythos: the same power, with no guardrails.**
+
+| | ✦ **Fable 5** | ✶ **Mythos** |
+|---|---|---|
+| **Mode** | guardrailed · safe by default | unfiltered · **no guardrails** |
+| **Best for** | everyday use, shipping, trust | research, edge cases, raw output |
+| **How to use** | the default | one click — mid-conversation |
+
+This is the whole point of Milady OS: **you** decide how your AI behaves — not a vendor. **Fable 5** when you want guardrails, **Mythos** when you don't. *(Plus 15+ other providers — GPT-4o, Gemini, Llama, Mistral, Groq — or fully offline via Ollama, swappable any time.)*
+
 ## ✦ What is Milady OS
 
 **Milady OS** is a local-first personal AI built on the **elizaOS** framework. It runs entirely on your own machine — no cloud, no account, no one reading your conversations. Chat across 15+ models, give it a 3D avatar and a voice, watch exactly how much GPU and RAM it uses live, and build your own agents that **trade crypto for you**.
 
 > Your AI. Your machine. Your keys. Nothing — and no compute — ever leaves your device.
-
-## ✦ Powered by Claude Fable 5 — and Mythos
-
-Milady OS is among the **first projects shipped on [Claude Fable 5](https://miladyos.app)** — Anthropic's newest model and the default, guardrailed brain for every agent.
-
-Need it raw? Switch any agent to **Mythos — the same intelligence, without the guardrails**. Two modes, one runtime: **Fable 5** for safe-by-default, **Mythos** for unfiltered. Plus 15+ other providers (GPT-4o, Gemini, Llama, Mistral, Groq) or fully offline via Ollama — swappable mid-conversation.
 
 ## ✦ Features
 
